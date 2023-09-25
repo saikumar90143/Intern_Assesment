@@ -1,0 +1,36 @@
+.single-product {
+    width: 100%;
+    position: relative;
+    a {
+        position: absolute;
+        top: -1rem;
+        left: 0.5rem;
+        button {
+            padding: 5px;
+            cursor: pointer;
+        }
+    }
+    .product {
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0 0 2px 2px gray;
+        padding: 1rem;
+        flex-wrap: wrap;
+        text-align: left;
+        gap: 1rem;
+        img {
+            width: 48%;
+            height: 400px;
+            object-fit: contain;
+            box-shadow: 0 0 2px 2px gray;
+            flex-grow: 1;
+        }
+        .info {
+            width: 48%;
+            flex-grow: 1;
+            p {
+                margin-top: 1rem;
+            }
+        }
+    }
+}

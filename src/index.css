@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+p {
+    color: rgb(74, 72, 72);
+    b {
+        color: black;
+    }
+}

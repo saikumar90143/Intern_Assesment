@@ -1,0 +1,21 @@
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    .product {
+        flex: 1;
+        box-shadow: 0 0 2px 2px gray;
+        cursor: pointer;
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: contain;
+        }
+        .product-info {
+            text-align: left;
+        }
+    }
+}
